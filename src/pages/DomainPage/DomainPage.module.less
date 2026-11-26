@@ -1,0 +1,30 @@
+.sectionHeading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 18px;
+}
+
+.sectionTitle {
+  margin: 0;
+  color: #111827;
+  font-size: 24px;
+  font-weight: 680;
+  line-height: 1.25;
+}
+
+.sectionSubtitle {
+  max-width: 720px;
+  margin-top: 6px;
+  color: #6b7280;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+@media (max-width: 680px) {
+  .sectionHeading {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
